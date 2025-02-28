@@ -29,3 +29,24 @@ body{
    border: 1px solid #ddd;
    margin: 0, auto;
 }
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 0 15px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+}
+a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
